@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="./animate.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>stake</title>
+</head>
+
+<body class="body-darklight">
+
+    <!-- top props -->
+    <nav class="navbar navbar-expand-sm primary-dark navbar-dark topnav-1">
+        <a class="navbar-brand" href="#">
+            <i class="fa fa-star" style="font-size:12px;color:rgb(255, 208, 0)"></i>
+            <a class="navbar-text-1" href="#">Congrate</a>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+
+                </li>
+            </ul>
+            <div class="mt-2 mt-sm-0">
+                <div class="container">
+                    <a class="navbar-text-1" href="#">Online <span class="accent-colour-i"><b>532</b> </span></a>
+                    <a class="navbar-text-1" href="#">BTC Price <span class="accent-colour-i"><b>$2343</b> </span></a>
+                    <a class="navbar-text-1" href="#">Bets <span class="accent-colour-i"><b>532521312</b> </span></a>
+                    <a class="navbar-text-1" href="#">WON Last 24h <span class="accent-colour-i"><b>b 24532</b>
+                        </span></a> <!-- TODO - B logo-->
+                    <a class="navbar-text-1" href="#">jackpot <span class="accent-colour-i"><b>b 54995</b> </span></a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- top nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark primary-darklight">
+        <a class="navbar-brand" href="#">DuckDice</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Forum<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Bonuses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Stas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contest</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Awords</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Lottery <sup class=""> NEW</sup></a>
+                </li>
+            </ul>
+            <div>
+                <a name="" id="" class="btn btn-sm accent-colour" href="#" role="button">Register</a>
+                <a name="" id="" class="btn btn-sm primary-light mr-3" href="#" role="button">Login </a>
+                <a name="" id="" class="btn btn-sm primary-light" href="#" role="button">O</a>
+                <a name="" id="" class="btn btn-sm primary-light" href="#" role="button">1</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- dropdown -->
+    <div id="accordianId" role="tablist" aria-multiselectable="true">
+        <div class="card primary-dark">
+            <div class="card-header" role="tab" id="section1HeaderId ">
+                <h5 class="mb-0">
+                    <a data-toggle="collapse" data-parent="#accordianId" href="#section1ContentId" aria-expanded="true"
+                        aria-controls="section1ContentId">
+                        Section 1
+                    </a>
+                </h5>
+            </div>
+            <div id="section1ContentId" class="collapse in p-3 body-primary " role="tabpanel"
+                aria-labelledby="section1HeaderId">
+                <div class="">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <div class="card bg-dark p-2">
+                                <div class="d-flex justify-content-between">
+                                    <img style="width: 20px; height: 20px;" src="./img/coincoins/business.svg"
+                                        alt="Bitcoin image ">
+                                    <p><b>Bitcoin</b></p>
+                                    <p>BTC</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="card bg-dark p-2">
+                                <div class="d-flex justify-content-between">
+                                    <img style="width: 20px;height: 20px;" src="./img/coincoins/etherium.svg"
+                                        alt="Ethereum">
+                                    <p><b>Ethereum</b></p>
+                                    <p>Eth</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="card bg-dark p-2">
+                                <div class="d-flex justify-content-between">
+                                    <img style="width: 20px;height: 20px;" src="./img/coincoins/zcash.svg" alt="Zcash">
+                                    <p><b>Zcash</b></p>
+                                    <p>ZCE</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="card bg-dark p-2">
+                                <div class="d-flex justify-content-between">
+                                    <img style="width: 20px;height: 20px;" src="./img/coincoins/logo.svg" alt="DASH">
+                                    <p><b>Dash</b></p>
+                                    <p>DASH</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="card bg-dark p-2">
+                                <div class="d-flex justify-content-between">
+                                    <img style="width: 20px;height: 20px;" src="./img/coincoins/business (1).svg"
+                                        alt="Tether">
+                                    <p><b>tether</b></p>
+                                    <p>USDT</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <!-- header -->
+    <header class="body-darklights py-5 head-res">
+        <div class=" body-darklights">
+            <div class="row">
+
+                <div class="col-sm-5 text-center pt-5">
+
+                    <h2 class="text-white">Crypto Powerd Betting</h2>
+                    <a href="#" class="btn btn-md btn-primary rounded-button px-4 my-1class= btn btn-danger">Register
+                        instantly</a>
+                    <h6 class="text-white my-3">Or join now with</h6>
+                    <a href="#" class="btn btn-md btn-primary"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn-md btn-primary"><i class="fa fa-google" aria-hidden="true"></i></a>
+                    <a href="#" class="btn btn-md btn-primary"><i class="fa fa-twitch" aria-hidden="true"></i></a>
+                </div>
+                <div class="col-sm-7">
+                    <img src="./img/baner.png" class="img-res d-none d-sm-block" alt="baner" width="50px"
+                        height="400px">
+                </div>
+            </div>
+        </div>
+    </header>
+    <br>
+    <main class="container text-white">
+
+
+        <!-- Game section -->
+        <section>
+            <div class="row ">
+                <div class="col-sm-12 col-lg-3">
+                    <div class="card  p-1">
+                        <img src="./img/games/dice.png" alt="" class="img-res ">
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p>Dice</p>
+                        <p>1% Edge</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-3">
+                    <div class="card  p-1">
+                        <img src="./img/games/dice.png" alt="" class="img-res ">
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p>Dice</p>
+                        <p>1% Edge</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-3">
+                    <div class="card  p-1">
+                        <img src="./img/games/dice.png" alt="" class="img-res ">
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p>Dice</p>
+                        <p>1% Edge</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-3">
+                    <div class="card  p-1">
+                        <img src="./img/games/dice.png" alt="" class="img-res ">
+                    </div>
+                    <div class="d-flex justify-content-between">
+                        <p>Dice</p>
+                        <p>1% Edge</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <br>
+
+
+
+
+        <br>
+        <!-- carousel -->
+        <section id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="mask flex-center">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-md-7 col-12 order-md-2 order-2">
+                                    <h4>h4 tag<br>
+                                    </h4>
+                                    <p>Description.</p>
+                                    <a href="#">Bitcoin</a>
+                                </div>
+                                <div class="col-md-5 col-12 order-md-2 order-1 cen"><img src="./img/slider/bit.svg"
+                                        class="img-res" class="mx-auto" alt="Bitcoin"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="mask flex-center">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-md-7 col-12 order-md-1 order-2">
+                                    <h4>FRXDGRFDDG <br>
+                                        aKBHGTF</h4>
+                                    <p>Description</p>
+                                    <a href="#">Dash</a>
+                                </div>
+                                <div class="col-md-5 col-12 order-md-2 order-1"><img src="./img/slider/logo.svg"
+                                        class="mx-auto" alt="Dash"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="mask flex-center">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-md-7 col-12 order-md-1 order-2">
+                                    <h4>GTFCCFYTDY <br>
+                                        JFCBHJHBJ</h4>
+                                    <p>HDBJHDJHFVJDHVJCHVDHVDJVHCJDGV</p>
+                                    <a href="#">Etherium<i class="fas fa-dice-one    "></i></a>
+                                </div>
+                                <div class="col-md-5 col-12 order-md-2 order-1"><img src="./img/slider/etherium.svg"
+                                        class="mx-auto" alt="Ethereum"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+
+        </div>
+
+
+        <br>
+
+        <!-- Table section -->
+        <section>
+
+            <ul class="nav nav-tabs" id="tablalTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="casino-tab" data-toggle="tab" href="#casino" role="tab"
+                        aria-controls="casino" aria-selected="true">Casino</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="sport-tab" data-toggle="tab" href="#sport" role="tab" aria-controls="sport"
+                        aria-selected="false">Sport</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="tablalTabContent">
+                <div class="tab-pane fade show active table-responsive" id="casino" role="tabpanel"
+                    aria-labelledby="casino-tab">
+                    <table class="table text-center text-white">
+                        <thead>
+                            <tr>
+                                <th scope="col">Game</th>
+                                <th scope="col">BetId</th>
+                                <th scope="col">User</th>
+                                <th scope="col">Time</th>
+                                <th scope="col">Bet</th>
+                                <th scope="col">PayOut</th>
+                                <th scope="col">Profit</th>
+                            </tr>
+                        </thead>
+                    </table>
+                    <tbody>
+                        <tr>
+                            <table class="table text-center table-striped table-dark text-center">
+                                <th scope="row "><b>Mines</b></th>
+                                <td><b>515414545541</b></td>
+                                <td><b>Ragna</b></td>
+                                <td><b>11:45 PM</b></td>
+                                <td><b>40.00002121102</b></td>
+                                <td><b>2.13x</b></td>
+                                <td><b>63.4545</b></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><b>Dice</b></th>
+                            <td><b>541544446464</b></td>
+                            <td><b>Salamara</b></td>
+                            <td><b>12:45 PM</b></td>
+                            <td><b>80.00002121102</b></td>
+                            <td><b>2.13x</b></td>
+                            <td><b>63.4545</b></td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </div>
+                <div class="tab-pane fade" id="sport" role="tabpanel" aria-labelledby="sport-tab">
+                    <table class="table  text-center text-white">
+                        <thead>
+                            <tr>
+                                <th scope="col">Game</th>
+                                <th scope="col">BetId</th>
+                                <th scope="col">User</th>
+                                <th scope="col">Time</th>
+                                <th scope="col">Bet</th>
+                                <th scope="col">PayOut</th>
+                                <th scope="col">Profit</th>
+
+                            </tr>
+                        </thead>
+                    </table>
+                    <tbody>
+                        <tr>
+                            <table class="table text-center table-striped table-dark text-center">
+                                <th scope="row"><b>Mines</b></th>
+                                <td><b>515414545541</b></td>
+                                <td><b>Ragna</b></td>
+                                <td><b>11:45 PM</b></td>
+                                <td><b>40.00002121102</b></td>
+                                <td><b>2.13x</b></td>
+                                <td><b>63.4545</b></td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><b>Dice</b></th>
+                            <td><b>541544446464</b></td>
+                            <td><b>Salamara</b></td>
+                            <td><b>12:45 PM</b></td>
+                            <td><b>80.00002121102</b></td>
+                            <td><b>2.13x</b></td>
+                            <td><b>63.4545</b></td>
+                        </tr>
+                    </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <hr>
+    </main>
+
+    <hr>
+    </main>
+    <!-- Footer section -->
+    <footer class="container text-white">
+        <div class="row ">
+            <div class="col-lg-2 col-6">
+                <h5> Sports</h5>
+                <a href="#">Home</a><br>
+                <a href="#">Live</a><br>
+                <a href="#">Sports Rules</a><br>
+            </div>
+            <div class="col-lg-2 col-6">
+                <h5>Casino</h5>
+                <a href="#">Games</a><br>
+                <a href="#"> VIP Club</a><br>
+                <a href="#">Promotions</a><br>
+            </div>
+            <div class="col-lg-2 col-6">
+                <h5>Support</h5>
+                <a href="#"> Fairness</a><br>
+                <a href="#"> Affiliate</a><br>
+                <a href="#"> Gamble Aware</a><br>
+
+
+            </div>
+            <div class="col-lg-2 col-6">
+                <h5>Community</h5>
+                <a href="#"> Blog</a><br>
+                <a href="#">Forum</a><br>
+
+                <a href="#"> Facebook</a><br>
+                <a href="#">Twitter</a><br>
+                <a href="#">Instagram</a><br>
+            </div>
+            <div class="col-lg-2 col-6">
+                <h5>About Us</h5>
+                <a href="#"> Privacy Policy</a><br>
+                <a href="#"> Terms of Service</a><br>
+                <a href="#"> Change Feed</a><br>
+                <a href="#"> Primedice</a><br>
+            </div>
+
+        </div>
+        <hr>
+
+        <div class="row">
+            <div class="col-lg-2 col-3">
+                <img class="img-res" src="./img/ethereum.png" alt="">
+            </div>
+            <div class="col-lg-2 col-3">
+                <img class="img-res" src="./img/ethereum.png" alt="">
+            </div>
+            <div class="col-lg-2 col-3">
+                <img class="img-res" src="./img/ethereum.png" alt="">
+            </div>
+            <div class="col-lg-2 col-3">
+                <img class="img-res" src="./img/ethereum.png" alt="">
+            </div>
+            <div class="col-lg-2 col-3">
+                <img class="img-res" src="./img/ethereum.png" alt="">
+            </div>
+            <div class="col-lg-2 col-3">
+                <img class="img-res" src="./img/ethereum.png" alt="">
+
+            </div>
+        </div>
+        <hr>
+        <H5>
+            <p>1BTC=$415484848</p>
+        </H5>
+        <div class="d-flex bd-highlight">
+            <div class="p-2 w-100 bd-highlight">
+                <div class="d-flex align-items-center">
+                    <h1 class="mr-4">stake</h1>
+                    <p>&copy;Copyright 2019 Strike</p>
+                </div>
+            </div>
+
+            <div class="p-2 flex-shrink-1 bd-highlight ">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+            </div>
+            <div class="p-2 col-lg-2 flex-shrink-1 bd-highlight">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+
+            </div>
+
+        </div>
+        </div>
+        </div>
+        </div>
+
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" rel="stylesheet">
+</body>
+
+</html>
